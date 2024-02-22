@@ -357,11 +357,29 @@ echo "Final sorted file:"
  " using vi backup.sh"
 
   #### 3. Execute permission calculation .sh .
-
-#### 4. Run a script using a command ./backup.sh
+  
+#### 4. To Run a script using a command ./backup.sh
  
+ #### we need to create backup.sh directory
+ #### Then create backup.sh file with touch command
+ #### create a database for backup.sh with vi backup.sh
+ #### Then make sure backup directory is not empty
+ #### Edit souce_directory
+ `source_dir = "/home/ubuntu/source_dir"`
+#### Then edit backup directory with
+`backup_dir = "home/ubuntu/backup_dir"`
+
+![alt text](<image/backup file.png>)
+
+#### Save the script
+#### Then run sudo chmod +x backup.sh
+#### Finally run backup.sh script
+`./backup.sh`
+
+![alt text](<image/BACKUP SCRIPT.png>)
+
 #### With this we can see all our backup files.
-![alt text](<image/vi backup.sh.png>)
+
 
 
 
